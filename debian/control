@@ -1,0 +1,15 @@
+Source: phosh-config-hwcomposer
+Maintainer: Giuseppe Corti (r3vn) <giuseppe.corti@protonmail.com>
+Section: misc
+Priority: optional
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.5.0.3
+Vcs-Browser: https://github.com/hybris-mobian/phosh-config-hwcomposer
+Vcs-Git: https://github.com/hybris-mobian-releng/phosh-config-hwcomposer.git
+
+Package: phosh-config-hwcomposer
+Architecture: all
+Pre-Depends: phosh, libhybris
+Depends: ${misc:Depends}
+Description: APT configurations for hybris-mobian
+ This package contains configurations required to start phosh on hwcomposer

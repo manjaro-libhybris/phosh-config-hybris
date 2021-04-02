@@ -1,0 +1,11 @@
+#!/bin/sh
+
+configure() {
+	rm -f /etc/systemd/system/phosh.service.d/90-force-legacy-user.conf
+}
+
+case "$1" in
+	"remove")
+		remove
+		;;
+esac
